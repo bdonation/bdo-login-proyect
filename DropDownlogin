@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Your Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript"></script>
+</head>
+
+<body>
+
+<nav>
+	<section class="nav-container">
+		<aside class="logo"><img src="cocacola.png"></aside>
+		<aside class="menu">
+			<div class="menu-content">
+				<i class="fa fa-unlock-alt"></i><a href="#" id="login">Login</a> | <i class="fa fa-user"></i><a href="#">Register</a>
+			</div>
+		<div class="arrow-up"></div>	
+		</aside>
+		<div class="login-form">
+			<form>
+				<label>Username</label>
+				<div>
+					<input type="text" placeholder="Username" required/>
+				</div>
+				<label>Password</label>
+				<div>
+					<input type="password" placeholder="Password" required/>
+				</div>
+				<div>
+					<input type="submit" value="Log In"/>
+				</div>
+				<div>
+					<a href="#" style="text-decoration:none;position:relative;top:20px;font-size:16px;color:gray;">Lost Your Password?</a>
+				</div>
+			</form>
+		</div>
+	</section>
+	<p>My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan My name is Khan </p>
+</nav>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	var arrow = $(".arrow-up");
+	var form = $(".login-form");
+	var status = false;
+	$("#login").click(function(event){
+		event.preventDefault();
+		if(status == false){
+			arrow.fadeIn();
+			form.fadeIn();
+			status = true;
+		}else{
+			arrow.fadeOut();
+			form.fadeOut();
+			status = false;
+		}
+	})
+})
+
+</script>
+</body>
+</html>
+
+<!--
+body bgcolor #bfc2c2
+nav bgcolor #0a4b33
+hover bgcolor #0b8256
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
